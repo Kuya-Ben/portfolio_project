@@ -75,3 +75,46 @@ a:hover {
 .about li {
     margin-bottom: 14px;
 }
+
+    /* Skills Section */
+.Skills {
+    background-color: white;
+    width: 80%;
+    max-width: 100%;
+    margin: 40px auto;
+    padding-inline: 80px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+  
+} 
+   .Skills h3 {
+    color: #6bf111;
+    margin-top: 20px;
+}
+
+.Skills ul {
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    list-style: none; /* Removes bullet points */
+}
+
+.Skills li {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(204, 186, 186);
+    background-color: rgb(92, 240, 29);
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.Skills li:hover {
+    background-color: rgb(2, 13, 3);
+    color: white;
+    transform: scale(1.05);
+}
