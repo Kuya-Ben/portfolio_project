@@ -4,6 +4,28 @@
         width: 100%;
         overflow-x: hidden;
     }
+   nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 15px;
+
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav ul li a{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
 
     /* Main */
 

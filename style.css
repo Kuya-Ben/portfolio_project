@@ -32,13 +32,112 @@ html {
     scroll-behavior: smooth;
 }
 
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    box-sizing:border-box;
+
+    padding:0 20px;
+
+    height:75px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(5,5,5,.88);
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,140,0,.25);
+
+    z-index:5000;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.logo i {
+    color: orange;
+
+    font-size: 20px;
+}
+
+.logo span {
+    color: orange;
+}
+
+
+/* NAV LINKS */
+
+nav ul{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li a {
+    position: relative;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+
+/* UNDERLINE */
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
         /* Main Section */
 main {
     gap:40px;
     justify-content: center;
     color: white;
     display: flex;
-    padding-top: 50px;
+    padding-top: 120px;
     margin-bottom: 100px;
    
 }
