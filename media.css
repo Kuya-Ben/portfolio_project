@@ -1,3 +1,66 @@
+/* ==========================
+   TABLET (900px)
+========================== */
+
+@media (max-width:900px){
+
+    .contact{
+        padding:70px 5%;
+    }
+
+    .contact h2{
+        font-size:32px;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+        gap:40px;
+        padding:0;
+    }
+
+    .contact-left h3{
+        font-size:15px;
+    }
+
+    .contact-left p{
+        font-size:15px;
+    }
+
+    .contact-card{
+        width: auto;
+        gap:15px;
+        
+        
+    }
+
+    .icon{
+        width:60px;
+        height:60px;
+        min-width:60px;
+        font-size:22px;
+    }
+
+    .contact-right{
+        width:100%;
+        padding:30px;
+    }
+
+    .contact-right h3{
+        font-size:28px;
+    }
+
+    .input-group input,
+    .input-group textarea{
+        font-size:15px;
+        padding:16px;
+    }
+
+    .contact-right button{
+        width:100%;
+    }
+
+}
+
 @media (max-width: 600px) {
 
     body {
@@ -178,4 +241,93 @@
     .education h2{
         font-size:  24px;
     }
+
+
+     .contact{
+        padding:60px 20px;
+    }
+
+    .contact h2{
+        font-size:28px;
+    }
+
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+        gap:35px;
+        padding:0;
+    }
+
+    .contact-left h3{
+        font-size:14px;
+    }
+
+    .contact-left p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .contact-card{
+        gap:12px;
+        align-items:flex-start;
+    }
+
+    .contact-card h4{
+        font-size:18px;
+    }
+
+    .contact-card p{
+        font-size:14px;
+        align-items: center;
+    }
+
+    .icon{
+        width: 35px;
+        height:35px;
+        min-width:55px;
+        font-size:20px;
+        margin-top: 4%;
+        color: rgb(243, 7, 7);
+    }
+
+    .socials{
+        justify-content:center;
+        gap:15px;
+        
+    }
+
+    .socials a{
+        width:50px;
+        height:50px;
+        font-size:18px;
+    }
+
+    .contact-right{
+        width:90%;
+        padding:25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-right h3{
+        font-size:24px;
+    }
+
+    .input-group input,
+    .input-group textarea{
+        width: 90%;
+        font-size:14px;
+        padding:14px;
+    }
+
+    .input-group textarea{
+        height:120px;
+    }
+
+    .contact-right button{
+        width:100%;
+        font-size:15px;
+        padding:15px;
+    }
+
 }
