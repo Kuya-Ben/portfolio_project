@@ -199,6 +199,7 @@ a:hover {
     margin: 30px auto;
     padding-inline: 80px;
     border-radius: 10px;
+    padding-bottom: 100px;
 }
 .about i {
 
@@ -249,9 +250,10 @@ a:hover {
 .about li {
     margin-bottom: 14px;
 }
-.Skills h3 {
+.Skills h2 {
     color: #78ed11;
-    margin-top: 20px;
+    margin-top: 60px;
+    padding-bottom: 50px;
 }
     /* Skills Section */
 .Skills {
@@ -259,7 +261,7 @@ a:hover {
     max-width: 1200px;
     margin: 30px auto;
     padding-inline: 80px;
-    
+    padding-bottom:100px;
     border-radius: 10px;    
 
 } 
@@ -305,7 +307,6 @@ a:hover {
     max-width: 1200px;
     margin: 30px auto;
     padding-inline: 80px;
-    margi
     border-radius: 10px;
 }
 .project-container{
@@ -449,7 +450,7 @@ a:hover {
 /* CONTACT CONTAINER */
 
 .contact-container{
-    max-height: 800px;
+    max-height:1000px;
     display:grid;
     grid-template-columns:1fr 1.3fr;
     gap:70px;
@@ -535,10 +536,10 @@ a:hover {
     justify-content:center;
     align-items:center;
 
-    border:2px solid #dc2d0a;
+    border:2px solid #dcaf0a;
     border-radius:50%;
 
-    color:#181413;
+    color:#f4ecec;
     text-decoration:none;
     font-size:22px;
 
@@ -632,8 +633,13 @@ a:hover {
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(255,122,0,.35);
 }
-
-/* ==========================
-   RESPONSIVE
-========================== */
-
+footer{
+    width: 100%;
+    background-color: #111;
+    color: #dc2d0a;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    padding-bottom: 10px;
+}
